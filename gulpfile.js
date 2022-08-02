@@ -20,7 +20,7 @@ const sass = gulpSass(dartSass);
 
 const paths = {
 	indexHtml : {
-		src : "src/index.html",
+		src : "src/*.html",
 		dest : "docs/src"
 	},
 	html : {
