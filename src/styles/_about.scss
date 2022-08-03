@@ -87,6 +87,10 @@
     margin-top: 35px;
   }
 
+  &__wrapper-pros:last-of-type {
+    margin-left: 46px;
+  }
+
   // .about-page__pros-title
 
   &__pros-title {
@@ -126,6 +130,7 @@
 }
 
 .about-page__wrapper-lists {
+  max-width: 1350px;
   display: flex;
 }
 
@@ -135,8 +140,15 @@
   // .about-bottom__wrapper-descr
 
   &__wrapper-descr {
-    margin-top: 55px;
-    padding-left: 18px;
+    height: 466px;
+    padding-top: 50px;
+    margin-top: 41px;
+    padding-left: 48px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 1360px;
+    box-sizing: border-box;
   }
 
   // .about-bottom__title
@@ -192,7 +204,7 @@
 
   // .about-page__pros-title
 
-  &__pros-title {
+  &__pros-title_sm {
     margin-top: 38px;
     display: inline-block;
     font-family: "Roboto";
@@ -214,4 +226,111 @@
 
   &__item {
   }
+
+  &__bottom {
+    // .about-page__bottom_wrapper-block
+
+    &_wrapper-block {
+    }
+  }
+
+  // .about-page__bottom-descr
+
+  &__bottom-descr {
+  }
+}
+
+.about-bottom__hor-line {
+  width: 1280px;
+  height: 0px;
+
+  position: relative;
+  border: 1px solid #e2e2e2;
+  top: 35px;
+}
+
+.some_about_container {
+  display: grid;
+  grid-template-columns: 577px 577px;
+  grid-column-gap: 100px;
+  grid-template-rows: 117px 126px;
+  width: 1360px;
+  max-width: 1360px;
+  margin-top: 60px;
+
+  grid-row-gap: 9px;
+}
+
+.about-page__bottom_wrapper-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  img {
+    margin-right: 21px;
+  }
+}
+
+.about-bottom {
+  flex-direction: column;
+}
+
+.about-page {
+  // .about-page__bottom-img-block
+
+  &__bottom-img-block {
+    width: 1360px;
+    background-image: url(../img/about/handshake.png);
+    background-repeat: no-repeat;
+    margin-top: 41px;
+    min-height: 180px;
+    @include flexEnd;
+    margin-bottom: 59px;
+  }
+
+  // .about-page__bottom-img
+
+  &__bottom-img {
+    // .about-page__bottom-img_wrapper
+
+    &_wrapper {
+    }
+
+    // .about-page__bottom-img_descr
+
+    &_descr {
+      width: 807px;
+      height: 48px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      margin-top: 31px;
+      margin-right: 31px;
+      color: #000000;
+    }
+  }
+
+  // .about-page__bottom-img-btn
+
+  &__bottom-img-btn {
+    margin-top: 17px;
+    margin-left: 0px;
+    width: 230px;
+  }
+}
+.slider {
+  // .slider__sideBlock
+
+  &__sideBlock {
+    // .slider__sideBlock_button
+
+    &_button {
+    }
+  }
+}
+#about_bug {
+  margin-left: 0px;
 }
