@@ -1,3 +1,9 @@
+.offers-wrap {
+  background-color: #ffff;
+  margin-top: -90px;
+  height: 630px;
+}
+
 .offers {
   width: 1360px;
   margin: auto;
@@ -19,6 +25,9 @@
   text-align: center;
 
   color: #333333;
+
+  display: inline-block;
+  margin-top: 90px;
 }
 
 .offers__wrap-cards {
@@ -144,7 +153,7 @@
 
 .adress {
   margin: 0px auto;
-  margin-top: 195px;
+  margin-top: 87px;
   width: 1360px;
 }
 
@@ -588,6 +597,7 @@
   background: #ffffff;
   border-radius: 5px;
   border: 1px solid #e6e6e6;
+  margin-bottom: 118px;
 }
 
 .lists__cards-wrapper {
