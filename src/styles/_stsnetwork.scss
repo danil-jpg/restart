@@ -439,7 +439,7 @@
     margin-left: 3px;
     width: 350px;
     height: 50px;
-    padding: 2px 0 0 15px;
+    padding: 0px 0 0 12px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -464,7 +464,13 @@
 
   color: #333333;
 }
-
+.form__hor-line {
+  border: 1px solid #ebebeb;
+  top: 27px;
+  width: 350px;
+  height: 0;
+  position: relative;
+}
 .form__name {
   margin-top: 52px;
   font-family: "Roboto";
@@ -554,4 +560,156 @@
   text-align: center;
   border: 1px solid 27ae60;
   color: #ffffff;
+}
+
+.lists {
+  width: 1360px;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 76px;
+}
+// .lists__tagline
+
+.lists__tagline {
+  margin-bottom: 18px;
+  text-align: start;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  color: #333333;
+}
+
+// .lists__card-wrapper
+
+.lists__cards-wrapper-background {
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+}
+
+.lists__cards-wrapper {
+  padding-top: 35px;
+
+  padding-left: 39px;
+
+  // height: 922px;
+}
+
+// .lists__title
+
+.lists__title {
+}
+
+// .lists__lists-wrapper
+
+.lists__lists-wrapper {
+  display: flex;
+}
+
+// .lists__list
+
+.lists__list {
+  margin-top: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  // line-height: 28px;
+  /* or 175% */
+
+  color: #777777;
+}
+
+// .lists__item
+
+.lists__item {
+  margin-top: 4px;
+}
+
+.lists__list_1 {
+  margin-right: 77px;
+}
+
+.lists__list_2 {
+  margin-right: 48px;
+}
+
+.lists__list_3 {
+  margin-right: 62px;
+}
+.lists__list_4 {
+}
+
+.lists__link {
+  text-align: start;
+  margin-top: -20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  color: #333333;
+
+  a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    text-decoration: none;
+    color: #337ab7;
+  }
+}
+
+.lists__hor-line {
+  margin-top: 88px;
+
+  width: 1283px;
+  height: 0px;
+  border: 1px solid #e2e2e2;
+}
+
+.lists__lists-wrapper_2 {
+  .lists__title {
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+
+  .lists__list_1 {
+    margin-right: 145px;
+  }
+
+  .lists__list_2 {
+    margin-right: 117px;
+  }
+  .lists__list_3 {
+    margin-right: 46px;
+  }
+  .lists__link {
+    margin-top: -17px;
+  }
+}
+.lists__lists-wrapper_3 {
+  .lists__title-wrapper {
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 54px;
+    margin-top: 11px;
+  }
+
+  .lists__lists-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 56px;
+  }
+  .lists__hor-line {
+    visibility: hidden;
+  }
 }
