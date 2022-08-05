@@ -129,7 +129,8 @@
 
   color: #999999;
   position: relative;
-  top: 42px;
+
+  top: 46px;
 }
 
 .offers__card-underdescr_2 {
@@ -144,7 +145,7 @@
 
   color: #999999;
   position: relative;
-  top: 42px;
+  top: 46px;
 }
 
 .offers__card-underline-link {
@@ -279,6 +280,7 @@
   /* identical to box height */
 
   color: #666666;
+  margin-top: 4px;
 }
 
 .adress__btn {
@@ -722,4 +724,8 @@
   .lists__hor-line {
     visibility: hidden;
   }
+}
+
+a {
+  text-decoration: none;
 }
