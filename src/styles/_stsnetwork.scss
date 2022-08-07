@@ -1,3 +1,7 @@
+.main {
+  position: relative;
+}
+
 .offers-wrap {
   background-color: #ffff;
   margin-top: -90px;
@@ -473,7 +477,14 @@
     color: #828282;
   }
   select {
+    padding-left: 11px;
+
     margin-left: 3px;
+    background-image: url(../img/network/arrow_down.png);
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    background-position: 96%;
+    transition: all 0.5s;
   }
 }
 
@@ -569,20 +580,20 @@
 }
 
 .form__button {
-  margin-top: 21px;
-
-  width: 352px;
-  height: 55px;
+  margin-top: 17px;
+  width: 353px;
+  height: 58px;
   background: #27ae60;
   border-radius: 3px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21px;
+  /* line-height: 21px; */
   text-align: center;
-  border: 1px solid 27ae60;
-  color: #ffffff;
+  border: 1px solid;
+  color: #fff;
+  margin-left: 2px;
 }
 
 .lists {
@@ -744,4 +755,154 @@ a {
 
 .visibility {
   visibility: hidden;
+}
+
+.pop-up {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 393px / 2 + 0.5px);
+}
+
+.pop-up__block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 393px;
+  height: 429px;
+  background: #fff;
+  box-shadow: 0 4px 20pxrgba (0, 0, 0, 0.1);
+  border-radius: 8px;
+  align-content: flex-start;
+  justify-content: center;
+  padding-top: 42.75px;
+}
+
+.pop-up__close-wrapper {
+  transition: 0.3s;
+  cursor: pointer;
+  padding-right: 21px;
+
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.pop-up__close {
+}
+
+.green-circle {
+  margin-top: 4px;
+}
+
+.pop-up__descr-block_top {
+  width: 100%;
+}
+
+.pop-up__descr-top {
+  margin-top: 20px;
+}
+
+.pop-up__descr {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.pop-up__descr-center {
+}
+
+.pop-up__descr-bottom {
+}
+
+.pop-up__descr-block_bottom {
+  margin-top: 52px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #828282;
+}
+
+.pop-up__hor-line {
+  width: 340px;
+  height: 0px;
+  margin-top: 16px;
+  border: 1px solid #e2e2e2;
+}
+
+.pop-up__info_top {
+}
+
+.pop-up__info {
+}
+
+.pop-up__info_bottom {
+}
+
+.pop-up_media-block {
+  margin-top: 19px;
+
+  width: 143.54px;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    margin-right: 15.27px;
+  }
+}
+
+.facebook {
+}
+
+.inst {
+}
+
+.youtube {
+}
+
+.popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0; // Скрываем фон и сам попап
+  pointer-events: none; // Запрещаем ему быть целью событий
+  transition: 0.5s all;
+}
+
+.popup__bg.active {
+  // При добавлении класса 'active'
+  opacity: 1; // Показываем фон и попап
+  pointer-events: all; // Возвращаем события
+  transition: 0.5s all;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); // Центрируем и масштабируем в 0 само окно
+  background: #fff;
+  width: 400px;
+  padding: 25px;
+  transition: 0.5s all;
+}
+
+.popup.active {
+  // При добавлении класса 'active'
+  transform: translate(-50%, -50%) scale(1); // Так же центрируем и плавно увеличиваем
+  transition: 0.5s all;
 }
