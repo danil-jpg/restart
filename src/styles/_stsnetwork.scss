@@ -621,7 +621,7 @@
 .lists__cards-wrapper-background {
   background: #ffffff;
   border-radius: 5px;
-  border: 1px solid #e6e6e6;
+  border: 0px solid #e6e6e6;
   margin-bottom: 118px;
 }
 
@@ -632,7 +632,13 @@
 
   // height: 922px;
 }
+.lists__lists-wrapper_2 {
+  margin-top: 3px;
+}
 
+.offers__card-underdescr_2 {
+  margin-top: -21px;
+}
 // .lists__title
 
 .lists__title {
@@ -680,7 +686,7 @@
 
 .lists__link {
   text-align: start;
-  margin-top: -20px;
+  margin-top: -26px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -712,7 +718,7 @@
 
 .lists__lists-wrapper_2 {
   .lists__title {
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 3px;
   }
 
@@ -905,4 +911,8 @@ a {
   // При добавлении класса 'active'
   transform: translate(-50%, -50%) scale(1); // Так же центрируем и плавно увеличиваем
   transition: 0.5s all;
+}
+
+.offers__card-underdescr_3 {
+  margin-top: -23px;
 }
