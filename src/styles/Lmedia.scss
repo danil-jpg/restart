@@ -1,5 +1,6 @@
 @media screen and (max-width: 1360px) {
   body {
+    margin: 0 auto !important;
     max-width: 768px;
   }
   .header {
@@ -37,6 +38,11 @@
     background-repeat: no-repeat;
     background-image: url(../img/header/pop-up_close.png);
   }
+
+  .header__top {
+    transform: initial;
+  }
+
   .footer__descr {
     font-family: "Roboto";
     font-style: normal;
@@ -247,6 +253,119 @@
 
     .footer__logo_spec {
       transform: translateY(23px);
+    }
+  }
+
+  // AboutPage
+
+  .about-page > * {
+    display: none;
+  }
+
+  .about-page {
+    .about-page__wrapper {
+      display: flex;
+      background: #fff;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .about-page__top {
+    width: 708px;
+  }
+
+  .about-page__tagline-wrapper {
+    width: 708px;
+    height: 100px;
+    box-sizing: border-box;
+
+    margin-top: -132px;
+  }
+
+  .about-page__tagline {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #333333;
+  }
+  .about-page__descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    text-align: center;
+
+    color: #666666;
+  }
+
+  .about-page__descr-wrapper_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .map {
+    width: 708px;
+    grid-template-columns: 1fr;
+    height: inherit;
+  }
+
+  .map_wrapper {
+    margin-bottom: 0px;
+    height: 365px;
+  }
+
+  .map__left {
+    display: none;
+  }
+  .map__left_mobile {
+    display: initial;
+  }
+  .map__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333;
+    margin-bottom: 40px;
+    display: inline-block;
+    /* margin-top: 116px; */
+    margin-top: 14px;
+  }
+  .map__info-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -8px;
+    grid-column-gap: 35px;
+  }
+
+  .map__schedule {
+    display: grid;
+    grid-column-start: 2;
+    margin-top: 6px;
+  }
+  .map__right {
+    display: none;
+  }
+  .google-frame {
+    display: block;
+    height: 570px;
+  }
+  .contacts {
+    footer {
+      margin-top: -15px;
     }
   }
 }
