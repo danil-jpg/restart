@@ -126,67 +126,70 @@ footer.header {
   }
 }
 
-// .header__top_mobile-list {
-//   transition: 0.5s;
-//   display: initial;
-//   background-repeat: no-repeat;
-//   background-image: url(../img/header/burger-img.png);
-//   height: 22px;
-//   transform: translate(0, 5px);
-//   z-index: 11;
-//   .header__list {
-//     display: none;
-//   }
-// }
+.header__top_mobile-list {
+  transition: 0.5s;
+  display: initial;
+  background-repeat: no-repeat;
+  background-image: url(../img/header/burger-img.png);
+  height: 22px;
+  transform: translate(0, 5px);
+  z-index: 11;
+  .header__list {
+    display: none;
+  }
+}
 
-// .burger {
-//   pointer-events: none;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   transform: translate(5%, -100%);
-//   z-index: 10;
-//   background-color: rgba(255, 255, 255, 0.95);
-//   border-radius: 8px;
-//   transition: 0.7s;
-//   padding: 75px 0 0;
-// }
+.burger {
+  pointer-events: none;
+  top: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: 0.7s;
+  padding: 75px 0 0;
+}
 
-// .burger.active {
-//   transform: initial;
-// }
+.burger.active {
+  left: 50%;
+  transform: translate(-50%, 23%);
+  transition: 0.7s;
+}
 
 // .burger__btn {
 //   background-image: url();
 // }
 
-// .burger__list {
-//   display: flex;
-//   flex-direction: column;
+.burger__list {
+  display: flex;
+  flex-direction: column;
 
-//   li {
-//     text-align: center;
-//   }
-// }
+  li {
+    text-align: center;
+  }
+}
 
-// .burger__item {
-//   margin-top: 22px;
-//   display: inline-block;
-//   font-family: Roboto;
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 18px;
-//   line-height: 23px;
-//   color: #333;
-//   margin-bottom: 23px;
-// }
+.burger__item {
+  margin-top: 22px;
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333;
+  margin-bottom: 23px;
+}
 
-// .burger__hor-line {
-//   width: 694px;
-//   height: 0px;
+.burger__hor-line {
+  width: 694px;
+  height: 0px;
 
-//   border: 1px solid #e2e2e2;
-// }
+  border: 1px solid #e2e2e2;
+}
 
 // .burger__item_1 {
 //   margin-bottom: 13px;
