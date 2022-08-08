@@ -5,17 +5,20 @@
   .header {
     max-width: 708px;
   }
-  .about {
-    display: none;
+  // .about {
+  //   display: none;
+  // }
+  header {
+    .header__nav {
+      display: none;
+    }
   }
-  .header__nav {
-    display: none;
-  }
+
   //   .header__top_mobile-list {
   //     display: initial;
   //   }
   .header__top {
-    grid-template-columns: 167px 1fr 66px;
+    grid-template-columns: 166px 1fr 40px;
     margin: 23px auto;
   }
   .header__top__tagline {
@@ -33,5 +36,217 @@
   .header__top_mobile-list_close {
     background-repeat: no-repeat;
     background-image: url(../img/header/pop-up_close.png);
+  }
+  .footer__descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: justify;
+
+    color: #999999;
+  }
+  .footer__logo_spec {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: justify;
+
+    color: #999999;
+  }
+
+  .background,
+  .foreground,
+  #slider,
+  #slider-circle {
+    display: none;
+  }
+
+  .slider {
+    width: 708px;
+    height: 209px;
+
+    margin: auto;
+    margin-top: 32px;
+  }
+
+  .slider__sideBlocks {
+    position: static;
+    justify-content: flex-start;
+  }
+
+  .slider__sideBlock_right {
+    margin-left: 29px;
+
+    .slider__sideBlock_img {
+      width: 46.85px;
+      height: 46.85px;
+    }
+  }
+
+  .slider__sideBlock_left {
+    margin-left: 15px;
+    padding: 41px 49px 32px 21px;
+
+    .slider__sideBlock_img {
+      width: 47.33px;
+      height: 47.33px;
+    }
+  }
+
+  .slider__sideBlock_left_button {
+    margin: 19px auto 32px 26px;
+  }
+
+  .slider__sideBlock_right {
+    padding: 42px 43px 21px 41px;
+  }
+
+  .slider__sideBlock_right_button {
+    margin-top: 18px;
+    margin-left: 7px;
+  }
+
+  .slider__sideBlock_descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #666666;
+  }
+
+  .slider__sideBlock_button {
+    width: 225px;
+    height: 57px;
+  }
+
+  .slider__sideBlock {
+    width: 327px;
+    height: 222px;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+
+  .about {
+    max-width: 708px;
+    margin: 74px auto 0;
+  }
+
+  .about__block_descr_wrapper {
+    margin-top: 0px;
+  }
+
+  .about_block_descr_link {
+    top: 9px;
+  }
+
+  .about__block_descr_1 {
+    transform: translateY(-6px);
+  }
+
+  .about__descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    text-align: center;
+
+    color: #333333;
+    margin-top: 9px;
+  }
+
+  // about section
+
+  .about__block:first-child {
+    margin-left: 13px;
+  }
+  .about__block:nth-child(2) {
+    margin-left: 28px;
+  }
+  .about__block:nth-child(3) {
+    margin-top: 26px;
+    margin-left: 13px;
+
+    .about_block_descr_link {
+      transform: translateY(11px);
+    }
+
+    .about__block_horLine {
+      transform: translateY(7px);
+    }
+  }
+  .about .about__cards_wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 11px;
+  }
+
+  .about__block {
+    margin-top: 9px;
+
+    height: 282px;
+    width: 327px;
+  }
+  .about__block_horLine {
+    width: 283px;
+    transform: translateY(4px);
+  }
+  .about__block_descr_2 {
+    transform: translateY(-6px);
+    margin-bottom: 15px;
+  }
+
+  .about__descr__bottom {
+    display: none;
+  }
+
+  .about__descr__bottom_mobile {
+    display: block;
+    margin: 0px auto;
+    margin-top: 23px;
+    margin-bottom: 18px;
+
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+
+      text-align: center;
+
+      color: #333333;
+    }
+  }
+
+  .footer {
+    .header__nav {
+      max-width: 708px;
+      margin-top: 0px;
+    }
+    .header__list {
+      display: none;
+    }
+
+    .footer__logo_spec {
+      transform: translateY(23px);
+    }
   }
 }
