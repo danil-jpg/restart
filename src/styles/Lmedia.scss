@@ -681,4 +681,275 @@
       }
     }
   }
+
+  .offers-wrap {
+    margin-top: -137px;
+    height: 949px;
+  }
+
+  .offers {
+    width: 708px;
+  }
+
+  .offers__tagline {
+    display: none;
+  }
+
+  .offers__wrap-cards {
+    flex-wrap: wrap;
+  }
+
+  .offers__cards {
+    width: 339px;
+    height: 351px;
+    box-sizing: border-box;
+    margin-bottom: 76px;
+  }
+
+  .offers__card-name {
+    margin-top: 8px;
+  }
+
+  .offers__card-underdescr_1 {
+    top: 32px;
+  }
+
+  .offers__card-underdescr_2 {
+    margin-top: -13px;
+  }
+
+  .offers__cards:nth-of-type(3) {
+    .offers__card-underdescr_1 {
+      left: 7px;
+      top: 35px;
+    }
+    .offers__card-underdescr_2 {
+      left: 7px;
+      top: 47px;
+    }
+  }
+
+  .offers__cards:nth-of-type(4) {
+    .offers__card-descr_1 {
+      display: none;
+    }
+
+    .offers__card-descr_2 {
+      display: none;
+    }
+
+    .offers__card-descr_mobile {
+      display: block;
+      margin-top: 47px;
+    }
+  }
+
+  .adress {
+    width: 708px;
+    margin-top: 69px;
+  }
+
+  .adress__point-2 {
+    transform: translate(-374px, 510px);
+  }
+
+  .adress__blocks-wrapper {
+    grid-row-gap: 104px;
+    grid-template-columns: 1fr;
+  }
+  .adress__btn {
+    height: 50px;
+    width: 156px;
+    left: 0px;
+    top: 0px;
+    border-radius: 100px;
+    transform: translateX(-3px);
+  }
+
+  .video {
+    height: 887px;
+    width: 708px;
+    margin-top: 51px;
+  }
+
+  .video__cards-wrapper {
+    justify-content: space-between;
+  }
+
+  .video__card-wrapper {
+    width: 339px;
+    height: 216px;
+    margin-right: 0px;
+  }
+
+  .video__street {
+    text-align: center;
+  }
+
+  .video__background {
+    width: 339px;
+    height: 216px;
+    margin-top: 5px;
+  }
+
+  .video__background_img {
+    width: 339px;
+    height: 216px;
+  }
+
+  .video__card-wrapper_last {
+    transform: translate(370px, 22px);
+  }
+
+  .video__card-wrapper-bottom {
+    transform: translate(1px, -236px);
+    display: block;
+
+    .video__card-wrapper:nth-of-type(2) {
+      margin-top: 56px;
+    }
+  }
+
+  .network-form {
+    width: 708px;
+    height: 550px;
+    margin: auto;
+    margin-top: 0px;
+    /* border: 1px solid #E6E6E6; */
+    border-radius: 5px;
+  }
+
+  .network-form_wrapper {
+    width: 708px;
+    height: 550px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .network-form__text {
+    margin-top: 45px;
+    transform: translate(-19px);
+    width: 438px;
+    height: 56px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: center;
+    color: #ffffff;
+
+    br {
+      display: none;
+    }
+  }
+
+  .form {
+    padding-left: 12px;
+    width: 264px;
+    height: 380px;
+    margin-left: -1px;
+    margin-top: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+
+    input {
+      width: 235px;
+      height: 45px;
+      left: 266px;
+      top: 3222px;
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      border-radius: 2px;
+      padding: 2px 0px 0px 7px;
+    }
+
+    input:first-of-type {
+      padding: 2px 0px 0px 7px;
+    }
+
+    input:nth-of-type(2) {
+      padding-bottom: 2px;
+    }
+
+    input:nth-of-type(3) {
+      padding-bottom: 2px;
+    }
+
+    select {
+      background-position: 95.5% 65%;
+
+      padding-left: 7px;
+      padding-top: 7px;
+      background-image: url(../img/network/arrow_down_mobile.png);
+    }
+  }
+
+  .form__request {
+    width: 185px;
+    height: 39px;
+    left: 269px;
+    top: 3137px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+    margin-left: 26px;
+    margin-top: -21px;
+  }
+
+  .form__hor-line {
+    width: 235px;
+    top: 10px;
+    right: 9px;
+  }
+
+  .form__name {
+    margin-top: 22px;
+  }
+
+  .form__input-name {
+    width: 235px;
+    height: 45px;
+    left: 266px;
+    top: 3222px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    padding: 2px 0px 0px 7px;
+  }
+
+  .form__phone {
+    margin-top: 10px;
+  }
+
+  .form__city {
+    margin-top: 5px;
+  }
+
+  .form_select-city {
+    width: 235px;
+    height: 40px;
+    padding-left: 7px;
+    padding-top: 2px;
+  }
+
+  .form__button {
+    width: 235px;
+    height: 60px;
+    /* left: 266px; */
+    /* top: 3426px; */
+    background: #27ae60;
+    border-radius: 3px;
+    margin-top: 15px;
+  }
+  .form__button_desktop {
+    display: none;
+  }
+  .form__button_mobile {
+    display: block;
+  }
 }
