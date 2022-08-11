@@ -1489,4 +1489,260 @@
       margin-top: 27px;
     }
   }
+
+  .burger.active {
+    transform: translate(-50%, 7%);
+  }
+
+  .about-page {
+    display: block;
+    margin: 0 auto;
+
+    .about-page__wrapper {
+      width: 290px;
+      margin: 0 auto;
+    }
+  }
+
+  .about-page__top {
+    width: 290px;
+    margin: 51px auto;
+    margin-left: 0px;
+  }
+
+  .about-page__tagline-wrapper {
+    width: 264px;
+    height: 170px;
+    margin: auto;
+    margin-top: -26px;
+  }
+
+  .about-page__tagline {
+    width: 240px;
+    height: 120px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .about-page__descr_1 {
+    width: 264px;
+    height: 176px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    margin-top: 28px;
+  }
+
+  .about-page__descr_1::after {
+    content: " гуртовими продажами агрегатів та компонентів на всій території України, компанія розвиває мережу сервісно-технічних центрів у Рівному та Луцьку.";
+  }
+  .about-page__descr_2 {
+    display: none;
+  }
+
+  .about-page__img {
+    width: 280px;
+    height: 76.28px;
+    margin-left: 5px;
+    margin-top: 28px;
+  }
+
+  .about-page__wrapper-pros {
+    padding-left: 13px;
+  }
+
+  .about-page__pros-title {
+    width: 264px;
+    height: 72px;
+    margin-top: -7px;
+    margin-bottom: 21px;
+  }
+
+  #about_bug {
+    ul {
+      width: 290px;
+
+      li.about-page__item {
+        width: 264px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .about-page__video {
+    width: 320px;
+    height: 256px;
+    position: absolute;
+    left: 0;
+    margin-top: -112px;
+  }
+
+  .about-bottom {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 175px;
+
+    .about-page__wrapper-pros {
+      padding-left: 0px;
+    }
+    .about-page__pros-title {
+      margin-top: 63px;
+      margin-bottom: 2px;
+      width: 264px;
+      height: 48px;
+      left: 28px;
+      top: 1683px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #333333;
+    }
+
+    .about-page__list {
+    }
+  }
+
+  .about-bottom__wrapper-descr {
+    height: 967px;
+    width: 290px;
+    margin-top: -4px;
+    padding-left: 12px;
+  }
+
+  .about-bottom__title {
+    transform: translate(0px, 3px);
+    width: 264px;
+    height: 72px;
+    left: 28px;
+    top: 1353px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  .about-bottom__descr {
+    width: 264px;
+    height: 176px;
+    left: 28px;
+    top: 1441px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #666666;
+  }
+
+  .about-page__pros-title .about-page__pros-title_sm {
+    width: 264px;
+    height: 48px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  .about-bottom__hor-line {
+    width: 264px;
+    top: 28px;
+  }
+
+  .about-page__item {
+    line-height: 25px;
+  }
+
+  .about-page__wrapper-lists {
+    width: 290px;
+    flex-wrap: wrap;
+
+    .about-page__wrapper-pros:nth-of-type(2) {
+      margin-left: 12px;
+
+      .about-page__pros-title {
+        margin-top: 3px;
+        height: 26px;
+      }
+
+      .about-page__list {
+        width: 264px;
+        height: 280px;
+      }
+
+      .about-page__item {
+        line-height: 28px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .some_about_container {
+    grid-template-columns: 1fr;
+    width: 290px;
+    grid-template-rows: 1fr;
+    grid-row-gap: 38px;
+  }
+
+  .about-page__bottom_wrapper-block {
+    flex-direction: column;
+  }
+
+  .about-page__bottom_wrapper-block {
+    flex-direction: column;
+  }
+
+  .about-page__bottom-descr {
+    width: 290px;
+    height: 150px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin: 0px;
+    margin-left: -1px;
+    margin-top: 7px;
+  }
+
+  .about-page__bottom_block:first-of-type .about-page__bottom-descr {
+    margin: 7px 0 0 -1px;
+  }
+
+  .about-page__bottom_block:nth-of-type(2) .about-page__bottom-descr {
+    transform: translate(1px, 0);
+
+    width: 290px;
+  }
+
+  .about-page__bottom_block:nth-of-type(3) {
+    margin-top: -8px;
+
+    .about-page__bottom-descr {
+      transform: translate(2px, -2px);
+      width: 290px;
+    }
+  }
+
+  .about-page__bottom_block:nth-of-type(4) {
+    margin-top: -15px;
+
+    .about-page__bottom-descr {
+      width: 291px;
+      transform: translate(1px, 6px);
+      line-height: 24px;
+      height: 226px;
+    }
+  }
 }
