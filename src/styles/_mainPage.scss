@@ -326,3 +326,11 @@ a:visited {
 .footer__descr_mobile {
   display: none;
 }
+
+.burger__list {
+  li:nth-of-type(5) {
+    .burger__hor-line {
+      display: none;
+    }
+  }
+}
