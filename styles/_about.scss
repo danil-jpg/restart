@@ -1,0 +1,388 @@
+.about-page {
+  @include flexCenter;
+  flex-direction: column;
+  // .about-page__top
+
+  &__top {
+    @include flexCenter;
+    min-height: 894px;
+
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    margin-top: 51px;
+  }
+
+  // .about-page__tagline-wrapper
+
+  &__tagline-wrapper {
+    width: 1360px;
+    height: 78px;
+
+    background: #f8f9fa;
+
+    @include flexCenter;
+  }
+
+  // .about-page__tagline
+
+  &__tagline {
+    height: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #333333;
+  }
+
+  // .about-page__descr-wrapper
+
+  &__descr-wrapper {
+    @include flexCenter;
+    flex-direction: column;
+  }
+
+  // .about-page__descr
+
+  &__descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: center;
+
+    color: #777777;
+    // .about-page__descr_1
+
+    &_1 {
+      margin-top: 32px;
+    }
+
+    // .about-page__descr_2
+
+    &_2 {
+    }
+  }
+
+  // .about-page__img
+
+  &__img {
+    margin-top: 25px;
+  }
+
+  // .about-page__wrapper-pros
+
+  &__wrapper-pros {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1280px;
+    margin-top: 35px;
+  }
+
+  &__wrapper-pros:last-of-type {
+    margin-left: 46px;
+  }
+
+  // .about-page__pros-title
+
+  &__pros-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    color: #333333;
+    margin-bottom: 16px;
+  }
+
+  // .about-page__list
+
+  &__list {
+  }
+
+  &__list
+
+  // .about-page__item
+
+  &__item {
+    margin-bottom: 4px;
+  }
+
+  &__item::before {
+    position: relative;
+    content: "•";
+    margin-right: 4px;
+  }
+  &__video {
+    width: 100%;
+    height: 220px;
+    margin-top: 36px;
+  }
+}
+
+.about-page__wrapper-lists {
+  margin-top: -6px;
+  max-width: 1350px;
+  display: flex;
+}
+
+.about-bottom {
+  @include flexCenter;
+  margin-top: 8px;
+  // .about-bottom__wrapper-descr
+
+  &__wrapper-descr {
+    height: 466px;
+    padding-top: 50px;
+    margin-top: 41px;
+    padding-left: 48px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    width: 1360px;
+    box-sizing: border-box;
+  }
+
+  // .about-bottom__title
+
+  &__title {
+    width: 859px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+    color: #333333;
+  }
+
+  // .about-bottom__descr
+
+  &__descr {
+    margin-top: 15px;
+    width: 830px;
+    height: 48px;
+    left: 329px;
+    top: 1455px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #777777;
+  }
+
+  // .about-bottom__hor-line
+
+  &__hor-line {
+  }
+}
+.hor {
+  // .hor_line
+
+  &_line {
+  }
+}
+.about-page {
+  // .about-page__wrapper-pros
+
+  &__wrapper-pros {
+  }
+
+  // .about-page__pros-title
+
+  &__pros-title_sm {
+    margin-top: 38px;
+    display: inline-block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #333333;
+  }
+
+  // .about-page__list
+
+  &__list {
+  }
+
+  // .about-page__item
+
+  &__item {
+  }
+
+  &__bottom {
+    // .about-page__bottom_wrapper-block
+
+    &_wrapper-block {
+    }
+  }
+
+  // .about-page__bottom-descr
+
+  &__bottom-descr {
+  }
+}
+
+.about-bottom__hor-line {
+  right: 10px;
+  width: 1280px;
+  height: 0px;
+
+  position: relative;
+  border: 1px solid #e2e2e2;
+  top: 35px;
+}
+
+.some_about_container {
+  display: grid;
+  grid-template-columns: 577px 577px;
+  grid-column-gap: 100px;
+  grid-template-rows: 117px 126px;
+  width: 1360px;
+  max-width: 1360px;
+  margin-top: 60px;
+
+  grid-row-gap: 9px;
+}
+
+.about-page__bottom_wrapper-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  img {
+    margin-right: 21px;
+  }
+}
+
+.about-bottom {
+  flex-direction: column;
+}
+
+.about-page {
+  // .about-page__bottom-img-block
+
+  &__bottom-img-block {
+    width: 1360px;
+    background-image: url(../img/about/handshake.jpg);
+    background-repeat: no-repeat;
+    margin-top: 41px;
+    min-height: 180px;
+    margin-bottom: 96px;
+    @include flexEnd;
+  }
+
+  // .about-page__bottom-img
+
+  &__bottom-img {
+    // .about-page__bottom-img_wrapper
+
+    &_wrapper {
+      width: 680px;
+    }
+
+    // .about-page__bottom-img_descr
+
+    &_descr {
+      width: 807px;
+      height: 48px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      margin-top: 31px;
+      color: #000000;
+      margin-right: 31px;
+      color: #000;
+      transform: translate(-160px);
+    }
+  }
+
+  // .about-page__bottom-img-btn
+
+  &__bottom-img-btn {
+    margin-top: 17px;
+    margin-left: 0px;
+    width: 230px;
+
+    color: #000;
+    transform: translate(-160px);
+
+    &:hover {
+      transform: translate(-160px);
+    }
+  }
+}
+.slider {
+  // .slider__sideBlock
+
+  &__sideBlock {
+    // .slider__sideBlock_button
+
+    &_button {
+    }
+  }
+}
+#about_bug {
+  margin-left: 0px;
+}
+
+.about__descr__bottom {
+  margin-bottom: 105px;
+}
+
+.about-page__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* or 175% */
+
+  color: #777777;
+}
+
+.about-page__bottom-img_wrapper {
+  background: white;
+}
+
+.about__block_img {
+  border-radius: 5px;
+}
+
+.about-page__descr-wrapper {
+  display: none;
+}
+
+.about-page__descr-wrapper_mobile {
+  display: none;
+}
+
+.about__descr__bottom_mobile {
+  display: none;
+}
+
+.about-page__bottom-img_mobile {
+  display: none;
+}
