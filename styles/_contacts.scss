@@ -1,0 +1,121 @@
+.map_wrapper {
+  background: #ffffff;
+  margin-top: -85px;
+  margin-bottom: 89px;
+}
+
+.map {
+  width: 1360px;
+  margin-top: 100px;
+  margin: 0 auto;
+  margin-top: 152px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-column-gap: 58px;
+  height: 730px;
+}
+
+.map__left {
+  padding-left: 4px;
+}
+
+.map__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  color: #333333;
+  margin-bottom: 40px;
+  display: inline-block;
+  margin-top: 116px;
+}
+
+.map__adress {
+  width: 261px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #333333;
+  margin-bottom: 37px;
+
+  a {
+    color: rgba(51, 122, 183, 1);
+    text-decoration: none;
+  }
+}
+
+.map__phones {
+  margin-bottom: 37px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #333333;
+  width: 300px;
+}
+
+.map__emails {
+  margin-bottom: 37px;
+  width: 166px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #333333;
+
+  a {
+    color: rgba(51, 122, 183, 1);
+  }
+}
+
+.mail-link {
+}
+
+.map__schedule {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #333333;
+  width: 184px;
+}
+
+.map__right {
+  display: inline-block;
+  margin-top: 95px;
+
+  width: 100%;
+  height: 570px;
+}
+
+.free {
+  color: rgba(153, 153, 153, 1);
+}
+
+.viber {
+  color: rgba(121, 80, 154, 1);
+}
+
+.map__left_mobile {
+  display: none;
+}
+
+.google-frame {
+  display: none;
+}

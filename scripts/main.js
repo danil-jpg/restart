@@ -1,2 +1,23 @@
-(()=>{"use strict";var e={997:(e,t,o)=>{o.d(t,{Z:()=>r});const r=function(e,t){console.log(document.querySelector(t)),document.querySelectorAll(e).forEach((e=>{e.addEventListener("click",(o=>{e.classList.toggle("header__top_mobile-list_close"),document.querySelector(t).classList.toggle("active")}))}))}},362:(e,t,o)=>{o.d(t,{Z:()=>r});const r=function(e=".video__background_img",t=".video__background"){document.querySelectorAll(e),document.querySelectorAll(t).forEach((e=>{e.addEventListener("click",(t=>{t.target.classList.contains("video__background_img")?t.target.classList.toggle("visibility"):t.target.hasAttribute("width")&&e.childNodes[0].classList.toggle("visibility")}))}))}},801:(e,t,o)=>{var r=o(725),c=o(362),l=o(723),i=o(997);window.addEventListener("load",(()=>{let e=document.querySelector(".popup__bg"),t=document.querySelector(".header__top_mobile-list"),o=document.querySelector(".foreground");e&&(0,l.Z)(),t&&(0,i.Z)(".header__top_mobile-list",".burger"),o&&(console.log("foreground is here"),(0,r.Z)(".foreground"," .sliderToggler",".sliderToggler__button")),(0,c.Z)()}))},723:(e,t,o)=>{o.d(t,{Z:()=>r});const r=function(){if(document.querySelectorAll(".form__button")){let e=document.querySelector(".popup__bg"),t=document.querySelector(".popup"),o=document.querySelectorAll(".form__button"),r=document.querySelector(".pop-up__close");o.forEach((o=>{o.addEventListener("click",(o=>{o.preventDefault(),e.classList.add("active"),t.classList.add("active")}))})),r.addEventListener("click",(()=>{e.classList.remove("active"),t.classList.remove("active")})),document.addEventListener("click",(o=>{o.target===e&&(e.classList.remove("active"),t.classList.remove("active"))}))}}},725:(e,t,o)=>{o.d(t,{Z:()=>r});const r=function(e=".foreground",t=" .sliderToggler",o=".sliderToggler__button"){document.querySelector(t).addEventListener("input",(t=>{const r=t.target.value;document.querySelector(e).style.width=r+"%",document.querySelector(o).style.left=`calc(${+r+1.9}% - 67px)`}))}}},t={};function o(r){var c=t[r];if(void 0!==c)return c.exports;var l=t[r]={exports:{}};return e[r](l,l.exports,o),l.exports}o.d=(e,t)=>{for(var r in t)o.o(t,r)&&!o.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),o(997),o(362),o(801),o(723),o(725)})();
-//# sourceMappingURL=main.js.map
+import slider from "./slider.js";
+import showVid from "./etc.js";
+import pop_up from "./popUp.js";
+import burger_file from "./burger.js";
+
+window.addEventListener("load", () => {
+  let popupBg = document.querySelector(".popup__bg"),
+    burgerTrigger = document.querySelector(".header__top_mobile-list"),
+    foreground = document.querySelector(".foreground");
+
+  if (popupBg) {
+    pop_up();
+  }
+  if (burgerTrigger) {
+    burger_file(".header__top_mobile-list", ".burger");
+  }
+  if (foreground) {
+    console.log("foreground is here");
+    slider(".foreground", " .sliderToggler", ".sliderToggler__button");
+  }
+
+  showVid();
+});
